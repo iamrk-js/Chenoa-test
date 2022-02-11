@@ -1,0 +1,11 @@
+@import '../../../assets/sass/abstract/variables';
+@import '../../../assets/sass/base/typography';
+@import '../../../assets/sass/components/buttons';
+
+.noBodySection{
+    padding: 2.5rem 0;
+}
+.myForm{
+    width: 100%;
+    flex-flow: nowrap row-reverse;
+}

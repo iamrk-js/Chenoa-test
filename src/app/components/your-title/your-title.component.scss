@@ -1,0 +1,11 @@
+@import '../../../assets/sass/abstract/variables';
+@import '../../../assets/sass/components/buttons';
+
+.yourTitle{
+    background-color: $primary-grey;
+    border-top: 5px solid $secondary-grey;
+    border-bottom: 10px solid $secondary-grey;
+    .descriptive{
+        padding: 100px 0px;
+    }
+}
