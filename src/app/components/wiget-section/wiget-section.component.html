@@ -6,17 +6,8 @@
             </div>
             <div class="col-md-6">
                 <div class="row">
-                    <div class="col-md-6">
-                        <app-viva-thumbnail></app-viva-thumbnail>
-                    </div>
-                    <div class="col-md-6">
-                        <app-viva-thumbnail></app-viva-thumbnail>
-                    </div>
-                    <div class="col-md-6">
-                        <app-viva-thumbnail></app-viva-thumbnail>
-                    </div>
-                    <div class="col-md-6">
-                        <app-viva-thumbnail></app-viva-thumbnail>
+                    <div class="col-md-6" *ngFor="let viva of vivas">
+                        <app-viva-thumbnail [viva]="viva"></app-viva-thumbnail>
                     </div>
                 </div>
             </div>
