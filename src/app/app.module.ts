@@ -18,6 +18,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { CopyrightComponent } from './components/copyright/copyright.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SocialHeaderComponent } from './components/social-header/social-header.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     WigetSectionComponent,
     FooterComponent,
     PostsComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    SocialHeaderComponent
   ],
   imports: [
     BrowserModule,

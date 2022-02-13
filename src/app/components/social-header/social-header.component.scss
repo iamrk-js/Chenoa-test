@@ -1,0 +1,50 @@
+@import "../../../assets/sass/abstract/variables";
+@import "../../../assets/sass/base/typography";
+.socialHeader {
+    padding: 1.563rem 0;
+    background-color: #2e2e2e;
+}
+.signUp {
+    a {
+        display: inline-block;
+        margin: 0 5px;
+        color: #9f9f9f;
+        font-size: 0.75rem;
+        text-decoration: none;
+        + a {
+            position: relative;
+            &::before {
+                content: "";
+                top: 3px;
+                left: -6px;
+                width: 1px;
+                background-color: #9f9f9f;
+                height: 90%;
+                display: inline-block;
+                position: absolute;
+            }
+        }
+    }
+}
+.social {
+    a {
+        margin: 0 5px;
+        background-color: #787878;
+        width: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        height: 30px;
+        padding: 3px;
+        transition: all .3s ease-in-out;
+        i{
+            color: #fff;
+        }
+        &:hover,
+        &:focus,
+        &:active{
+            background-color: #db4a39;
+        }
+    }
+}
