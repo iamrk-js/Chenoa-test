@@ -19,6 +19,7 @@ import { PostsComponent } from './components/posts/posts.component';
 import { CopyrightComponent } from './components/copyright/copyright.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SocialHeaderComponent } from './components/social-header/social-header.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SocialHeaderComponent } from './components/social-header/social-header.
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
