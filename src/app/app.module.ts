@@ -14,6 +14,10 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NobodyFoolsComponent } from './components/nobody-fools/nobody-fools.component';
 import { WigetSectionComponent } from './components/wiget-section/wiget-section.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PostsComponent } from './components/posts/posts.component';
+import { CopyrightComponent } from './components/copyright/copyright.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,11 +32,15 @@ import { WigetSectionComponent } from './components/wiget-section/wiget-section.
     HomePageComponent,
     HeaderComponent,
     NobodyFoolsComponent,
-    WigetSectionComponent
+    WigetSectionComponent,
+    FooterComponent,
+    PostsComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

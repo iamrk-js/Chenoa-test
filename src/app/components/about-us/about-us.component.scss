@@ -1,0 +1,13 @@
+@import '../../../assets/sass/abstract/variables';
+@import '../../../assets/sass/base/typography';
+@import '../../../assets/sass/components/footer';
+@import '../../../assets/sass/components/buttons';
+
+.img-item{
+    padding: 5px;
+    border: 1px solid #555555;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}

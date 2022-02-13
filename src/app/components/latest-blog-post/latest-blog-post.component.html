@@ -1,1 +1,8 @@
-<p>latest-blog-post works!</p>
+<div class="aboutUs">
+    <h3 class="footerHeading">
+        latest blog post
+    </h3>
+   <div *ngFor="let post of posts">
+       <app-posts [post]="post"></app-posts>
+   </div>
+</div>

@@ -1,0 +1,46 @@
+.footerHeading {
+    color: $text-white;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+.footerPara {
+    color: $secondary-color;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+.footerLinks {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+        border-bottom: 1px solid $bottom-border;
+        a {
+            display: block;
+            font-size: 0.75rem;
+            color: $primary-color;
+            padding: 10px 0 8px;
+            text-decoration: none;
+            > i {
+                color: $icon-color;
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+.post {
+    .title {
+        color: $secondary-color;
+        font-size: 0.875rem;
+    }
+    .profile, .info{
+        color: $secondary-color;
+        font-size: 0.625rem;
+        margin-bottom: 15px;
+    }
+    .info{
+        font-size: 0.75rem;
+    }
+}

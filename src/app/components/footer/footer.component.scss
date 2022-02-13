@@ -1,4 +1,11 @@
 @import '../../../assets/sass/abstract/variables';
 @import '../../../assets/sass/base/typography';
 @import '../../../assets/sass/components/footer';
-@import '../../../assets/sass/components/buttons';
+
+
+
+.footer{
+    background-color: $primary-dark ;
+    border-top: 5px solid;
+    padding: 2.5rem 0;
+}

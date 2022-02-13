@@ -1,0 +1,28 @@
+nav.navbar {
+    border-bottom: 5px solid $primary-grey;
+    li.nav-item {
+        position: relative;
+        ::before {
+            content: "";
+            position: absolute;
+            height: 5px;
+            left: 0;
+            bottom: -13px;
+            background-color: $primary-color;
+            width: 0%;
+            transition: all 0.3s ease-in-out;
+        }
+        &.active,
+        &:hover,
+        &:focus,
+        &:active {
+            ::before {
+                content: "";
+                width: 100%;
+            }
+        }
+        a {
+            text-transform: uppercase;
+        }
+    }
+}
